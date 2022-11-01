@@ -23,6 +23,8 @@ public class FirstHomeWorkTwoArrays {
                 {3, 1, 1},
                 {1, 1, 3}};
 
+        int correctAnswersInt = 0;
+        int incorrectAnswersInt = 0;
 
         for (int i = 0; i < arrayQuestions.length; i++) {
             System.out.println(arrayQuestions[i]);
@@ -35,17 +37,24 @@ public class FirstHomeWorkTwoArrays {
                 break;
             }
             else if (answer.chars().allMatch(Character::isLetter)) {
+                incorrectAnswersInt++;
                 System.out.println("Не правильно");
             }
-                else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3) {
-                if (arrayAnswers[i][(Integer.parseInt(answer) - 1)] == 3) {
+            else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3 && arrayAnswers[i][(Integer.parseInt(answer) - 1)] == 3) {
+
+                    correctAnswersInt++;
                     System.out.println("Правильно");
             }
-                else System.out.println("Не правильно");
+                else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3 && arrayAnswers[i][(Integer.parseInt(answer) - 1)] != 3) {
+                    incorrectAnswersInt++;
+                    System.out.println("Не правильно");
+                }
 
             }
-
+        System.out.println("Правильных ответов: " + correctAnswersInt);
+        System.out.println("Неправильных ответов: " + incorrectAnswersInt);
             }
+
         }
-    }
+
 
