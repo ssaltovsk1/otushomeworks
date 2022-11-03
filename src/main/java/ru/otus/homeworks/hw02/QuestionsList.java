@@ -3,6 +3,8 @@ package ru.otus.homeworks.hw02;
 import java.util.ArrayList;
 
 public class QuestionsList {
+
+
     public static ArrayList<Questions> questionsListMethod() {
 
         ArrayList<Questions> questionsList = new ArrayList<Questions>();

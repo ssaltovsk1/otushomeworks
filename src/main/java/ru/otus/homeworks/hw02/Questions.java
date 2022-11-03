@@ -4,7 +4,6 @@ public class Questions {
 
     private String question, answerFirst, answerSecond;
     private int correctAnswerNumber;
-    private static final int DEFAULT_ARRAY_LENGTH = 4;
 
     public Questions(String question, String answerFirst, String answerSecond, int correctAnswerNumber) {
         this.question = question;
@@ -30,15 +29,12 @@ public class Questions {
 
     public static void printOutQuestions(int number) {
 
-            System.out.println("\n" + QuestionsList.questionsListMethod().get(number).getQuestion());
-            System.out.println("1. " + QuestionsList.questionsListMethod().get(number).getAnswerFirst());
-            System.out.println("2. " + QuestionsList.questionsListMethod().get(number).getAnswerSecond());
-        }
+        System.out.println("\n" + QuestionsList.questionsListMethod().get(number).getQuestion());
+        System.out.println("1. " + QuestionsList.questionsListMethod().get(number).getAnswerFirst());
+        System.out.println("2. " + QuestionsList.questionsListMethod().get(number).getAnswerSecond());
+    }
 
 }
-
-
-
 
 
 

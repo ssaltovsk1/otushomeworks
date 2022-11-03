@@ -3,7 +3,7 @@ package ru.otus.homeworks.hw02;
 import java.util.Scanner;
 
 public class PrintOutQuestions {
-    public static void answerQuestions() {
+    static void answerQuestions() {
 
         int amountOfCorrectAnswers = 0;
         int amountOfIncorrectAnswers = 0;
