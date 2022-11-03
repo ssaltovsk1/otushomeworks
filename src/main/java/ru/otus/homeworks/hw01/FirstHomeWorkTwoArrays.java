@@ -1,7 +1,3 @@
-// разбить отдельно вопросы и варианты ответов в отдельных массивах
-// правильные ответы дать цифрами, приммитивами
-
-
 package ru.otus.homeworks.hw01;
 
 import java.util.Scanner;
@@ -42,19 +38,21 @@ public class FirstHomeWorkTwoArrays {
             }
             else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3 && arrayAnswers[i][(Integer.parseInt(answer) - 1)] == 3) {
 
-                    correctAnswersInt++;
-                    System.out.println("Правильно");
+                correctAnswersInt++;
+                System.out.println("Правильно");
             }
-                else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3 && arrayAnswers[i][(Integer.parseInt(answer) - 1)] != 3) {
-                    incorrectAnswersInt++;
-                    System.out.println("Не правильно");
-                }
-
+            else if (1 >= Integer.parseInt(answer) || Integer.parseInt(answer) <= 3 && arrayAnswers[i][(Integer.parseInt(answer) - 1)] != 3) {
+                incorrectAnswersInt++;
+                System.out.println("Не правильно");
             }
-        System.out.println("Правильных ответов: " + correctAnswersInt);
-        System.out.println("Неправильных ответов: " + incorrectAnswersInt);
+            else if (1 < Integer.parseInt(answer) || Integer.parseInt(answer) > 3) {
+                incorrectAnswersInt++;
+                System.out.println("Не правильно");
             }
 
         }
+        System.out.println("Правильных ответов: " + correctAnswersInt);
+        System.out.println("Неправильных ответов: " + incorrectAnswersInt);
+    }
 
-
+}
