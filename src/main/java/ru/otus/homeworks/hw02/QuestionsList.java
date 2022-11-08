@@ -16,7 +16,7 @@ public class QuestionsList {
         ));
         questionsList.add(new Questions(
                 "Название планеты?",
-                1,
+                4,
                 new ArrayList<>(List.of("Плутон", "Нептун", "Юпитер", "Венера (правильный ответ)"))
         ));
         questionsList.add(new Questions(
