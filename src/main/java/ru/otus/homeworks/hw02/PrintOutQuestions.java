@@ -22,9 +22,10 @@ public class PrintOutQuestions {
                 amountOfIncorrectAnswers++;
                 System.out.println("Не правильно");
             }
-            System.out.println("Правильных ответов: " + amountOfCorrectAnswers);
-            System.out.println("Неправильных ответов: " + amountOfIncorrectAnswers);
+
         }
+        System.out.println("Правильных ответов: " + amountOfCorrectAnswers);
+        System.out.println("Неправильных ответов: " + amountOfIncorrectAnswers);
 
     }
 }

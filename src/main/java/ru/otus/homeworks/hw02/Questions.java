@@ -1,27 +1,33 @@
 package ru.otus.homeworks.hw02;
 
+import java.util.ArrayList;
+
 public class Questions {
 
     private String question, answerFirst, answerSecond;
+    ArrayList<String> answersList;
     private int correctAnswerNumber;
 
-    public Questions(String question, String answerFirst, String answerSecond, int correctAnswerNumber) {
+    public Questions(String question, int correctAnswerNumber, ArrayList<String> answersList) {
         this.question = question;
-        this.answerFirst = answerFirst;
-        this.answerSecond = answerSecond;
         this.correctAnswerNumber = correctAnswerNumber;
+        this.answersList = answersList;
     }
 
+
+
+    public String getAnswerToList(int answerNumber) {
+        return answersList.get(answerNumber);
+    }
+    public void setAnswerToList(String answerToList) {
+        this.answersList.add(answerToList);
+    }
     public String getQuestion() { return question; }
     public void setQuestion(String question) { this.question = question; }
-    public String getAnswerFirst() { return answerFirst; }
-    public void setAnswerFirst(String answerFirst) { this.answerFirst = answerFirst; }
-    public String getAnswerSecond() { return answerSecond; }
-    public void setAnswerSecond(String answerSecond) { this.answerSecond = answerSecond; }
     public int getCorrectAnswerNumber() { return correctAnswerNumber; }
-    public void setCorrectAnswerNumber(int answerNumber) {
-        if (0 < answerNumber && answerNumber < 3) {
-            this.correctAnswerNumber = correctAnswerNumber;
+    public void setCorrectAnswerNumber(int correctAnswerNumber) {
+        if (0 < correctAnswerNumber && correctAnswerNumber < 3) {
+            this.correctAnswerNumber = this.correctAnswerNumber;
         } else {
             System.out.println("Введи 1 или 2. В зависимости от того, какой ответ правильный");
         }
@@ -30,15 +36,9 @@ public class Questions {
     public static void printOutQuestions(int number) {
 
         System.out.println("\n" + QuestionsList.questionsListMethod().get(number).getQuestion());
-        System.out.println("1. " + QuestionsList.questionsListMethod().get(number).getAnswerFirst());
-        System.out.println("2. " + QuestionsList.questionsListMethod().get(number).getAnswerSecond());
+        for (int i = 0; i < QuestionsList.questionsListMethod().get(number).answersList.size(); i++) {
+            System.out.println((i+1) + ". " + QuestionsList.questionsListMethod().get(number).getAnswerToList(i));
+        }
     }
 
 }
-
-
-
-
-
-
-
