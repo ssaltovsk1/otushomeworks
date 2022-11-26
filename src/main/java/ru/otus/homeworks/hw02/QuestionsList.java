@@ -8,7 +8,7 @@ public class QuestionsList {
 
     public static ArrayList<Questions> questionsListMethod() {
 
-        ArrayList<Questions> questionsList = new ArrayList<Questions>();
+        ArrayList<Questions> questionsList = new ArrayList<>();
         questionsList.add(new Questions(
                 "Как меня зовут?",
                 2,
