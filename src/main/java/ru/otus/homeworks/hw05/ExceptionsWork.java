@@ -6,22 +6,27 @@ import java.util.ArrayList;
 public class ExceptionsWork {
 
     static ArrayList<Goods> goodsList;
-    public static void main(String[] args) throws IOException, PersonalException {
+    public static void main(String[] args) throws IOException, PersonalException{
 
-        goodsList = new ArrayList<>();
+        try {
+            goodsList = new ArrayList<>(-1);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Ошибка при создании ArrayList с initialCapacity (-1). с Finally");
+        } finally {
+            goodsList = new ArrayList<>();
+        }
 
         String testFile = "demotxt";
 
         ImportFromFile.writeGoodsFromFile(testFile);
 
         try {
-            GoodsList.addGoodToList(0, 233);
-
-        } catch (Exception e) {
-            System.out.println("Следующая ошибка. Печатаем StackTrace");
+                goodsList.add(3,new Goods(1, 233));
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("Ошибка добавлнения по неправильному индексу. Печатаем StackTrace");
             e.printStackTrace();
         }
-        GoodsList.addGoodToList(12000, 233);
+        AddGoodsToList.addGoodToList(120, 233);
     }
 
 }

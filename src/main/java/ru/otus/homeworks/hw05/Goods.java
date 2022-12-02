@@ -12,7 +12,7 @@ public class Goods {
         try {
             this.goodsPrice = goodsTotalPrice / goodsAmount;
         } catch (NullPointerException e) {
-            System.out.println("NullPointerExeption");
+            System.out.println("NullPointerException");
         }
         catch (IllegalArgumentException e) {
             System.out.println("IllegalArgument");
