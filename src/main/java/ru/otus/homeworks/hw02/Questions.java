@@ -1,6 +1,7 @@
 package ru.otus.homeworks.hw02;
 
 import java.util.ArrayList;
+import static ru.otus.homeworks.hw02.Main.questionsList;
 
 public class Questions {
 
@@ -35,9 +36,9 @@ public class Questions {
 
     public static void printOutQuestions(int number) {
 
-        System.out.println("\n" + QuestionsList.questionsListMethod().get(number).getQuestion());
-        for (int i = 0; i < QuestionsList.questionsListMethod().get(number).answersList.size(); i++) {
-            System.out.println((i+1) + ". " + QuestionsList.questionsListMethod().get(number).getAnswerToList(i));
+        System.out.println("\n" + questionsList.get(number).getQuestion());
+        for (int i = 0; i < questionsList.get(number).answersList.size(); i++) {
+            System.out.println((i+1) + ". " + questionsList.get(number).getAnswerToList(i));
         }
     }
 
