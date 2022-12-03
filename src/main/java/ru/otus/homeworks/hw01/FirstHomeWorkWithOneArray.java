@@ -11,39 +11,45 @@ public class FirstHomeWorkWithOneArray {
 
         Scanner scanner = new Scanner(System.in);
 
-        String questionFirst = "В чем смысл жизни";
-        String answerFirstFirst = "Не знаю";
-        String answerFirstSecond = "42";
-        String answerFirstThird = "А что такое \"Жизнь\"";
+        String[][][] matrix = {
+                {
+                        {"2"},
+                        {"В чем смысл жизни"},
+                        {"Не знаю", "42", "А что такое \"Жизнь\""}
+                },
+                {
+                        {"1"},
+                        {"С чего начинается река?"},
+                        {"С ручейка", "Капли дождя", "Не скажу"}
+                },
+                {
+                        {"3"},
+                        {"Почему дует ветер?"},
+                        {"Потому-что деревья качаются", "Переды давления", "Не скажу"}
+                }
+        };
 
-//        String questionSecond = "\nС чего начинается река? \n1. С ручейка \n2. Капли дождя \n3. Не скажу";
-//        String questionThird = "\nПочему дует ветер \n1. Потому-что деревья качаются \n2. Переды давления \n3. Ветер относительно чего?";
-//        String[][] matrix = {{questionFirst, "A", "A", "B"},
-//                {questionSecond, "A", "B", "A"},
-//                {questionThird, "A", "B", "A"}};
-
-                String[][] matrix = {{questionFirst, answerFirstFirst, answerFirstSecond, answerFirstThird, "A", "A", "B"}};
+//        System.out.println(matrix[2][0][0]);
 
         for (int i = 0; i < matrix.length; i++) {
-            System.out.println(matrix[i][0]);
 
-            for(int j = 1; j < matrix[i].length; j++) {
-                if (matrix[i][j].equalsIgnoreCase("Не знаю")){
-                    System.out.println(matrix[i][j]);
+            for(int j = 0; j < matrix[i][1].length; j++) {
+                System.out.println(matrix[i][1][0]);
+
+                for(int k = 0; k < matrix[i][2].length; k++) {
+                    System.out.println((k+1) + ". " + matrix[i][2][k]);
                 }
-            }
+                    String answer = scanner.nextLine();
 
-            String answer = scanner.nextLine();
-            // int answer = scanner.nextInt();
+                    if (answer.toLowerCase().trim().equals("exit")) {
+                        System.out.println("До свидания");
+                        break;
+                    } else if (Integer.parseInt(answer) == Integer.parseInt(matrix[i][0][0])) {
+                        System.out.println("Правильно");
+                    } else {
+                        System.out.println("Не правильно");
+                    }
 
-
-            if (answer.toLowerCase().trim().equals("exit")) {
-                System.out.println("До свидания");
-                break;
-            } else if ((matrix[i][Integer.parseInt(answer)]).equals("B")) {
-                System.out.println("Правильно");
-            } else if ((matrix[i][Integer.parseInt(answer)]).equals("A")) {
-                System.out.println("Не правильно");
             }
         }
     }

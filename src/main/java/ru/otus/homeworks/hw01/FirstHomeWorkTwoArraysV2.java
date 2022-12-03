@@ -2,7 +2,7 @@ package ru.otus.homeworks.hw01;
 
 import java.util.Scanner;
 
-public class FirstHomeWorkTwoArrays {
+public class FirstHomeWorkTwoArraysV2 {
     public static void main(String[] args) {
 
         System.out.println("Приступим к тестированию \nДля выбора ответа - нажмите номер ответа и Enter \nДля выхода наберите exit и нажмите Enter");
@@ -14,9 +14,6 @@ public class FirstHomeWorkTwoArrays {
         String questionThird = "\nПочему дует ветер \n1. Потому-что деревья качаются \n2. Переды давления \n3. Ветер относительно чего?";
 
         String[] arrayQuestions = {questionFirst, questionSecond, questionThird};
-
-
-
 
         int[][] arrayAnswers = {{1, 3, 1},
                 {3, 1, 1},
