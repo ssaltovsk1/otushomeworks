@@ -1,8 +1,6 @@
 package ru.otus.homeworks.hw01;
 
-import java.util.Arrays;
 import java.util.Scanner;
-
 
 public class FirstHomeWorkWithOneArray {
     public static void main(String[] args) {
@@ -11,25 +9,23 @@ public class FirstHomeWorkWithOneArray {
 
         Scanner scanner = new Scanner(System.in);
 
-        String[][][] matrix = {
+        Object[][][] matrix = {
                 {
-                        {"2"},
+                        {1},
                         {"В чем смысл жизни"},
                         {"Не знаю", "42", "А что такое \"Жизнь\""}
                 },
                 {
-                        {"1"},
+                        {1},
                         {"С чего начинается река?"},
                         {"С ручейка", "Капли дождя", "Не скажу"}
                 },
                 {
-                        {"3"},
+                        {1},
                         {"Почему дует ветер?"},
                         {"Потому-что деревья качаются", "Переды давления", "Не скажу"}
                 }
         };
-
-//        System.out.println(matrix[2][0][0]);
 
         for (int i = 0; i < matrix.length; i++) {
 
@@ -44,7 +40,7 @@ public class FirstHomeWorkWithOneArray {
                     if (answer.toLowerCase().trim().equals("exit")) {
                         System.out.println("До свидания");
                         break;
-                    } else if (Integer.parseInt(answer) == Integer.parseInt(matrix[i][0][0])) {
+                    } else if (Integer.parseInt(answer) == ((int) matrix[i][0][0])) {
                         System.out.println("Правильно");
                     } else {
                         System.out.println("Не правильно");
