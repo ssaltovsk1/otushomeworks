@@ -1,21 +1,21 @@
 package ru.otus.homeworks.hw02;
 
 import java.util.ArrayList;
-import static ru.otus.homeworks.hw02.Main.questionsList;
+import java.util.List;
 
-public class Questions {
+import static ru.otus.homeworks.hw02.Main.questionList;
+
+public class Question {
 
     private String question, answerFirst, answerSecond;
-    ArrayList<String> answersList;
+    List<String> answersList;
     private int correctAnswerNumber;
 
-    public Questions(String question, int correctAnswerNumber, ArrayList<String> answersList) {
+    public Question(String question, int correctAnswerNumber, List<String> answersList) {
         this.question = question;
         this.correctAnswerNumber = correctAnswerNumber;
         this.answersList = answersList;
     }
-
-
 
     public String getAnswerToList(int answerNumber) {
         return answersList.get(answerNumber);
@@ -33,13 +33,4 @@ public class Questions {
             System.out.println("Введи 1 или 2. В зависимости от того, какой ответ правильный");
         }
     }
-
-    public static void printOutQuestions(int number) {
-
-        System.out.println("\n" + questionsList.get(number).getQuestion());
-        for (int i = 0; i < questionsList.get(number).answersList.size(); i++) {
-            System.out.println((i+1) + ". " + questionsList.get(number).getAnswerToList(i));
-        }
-    }
-
 }

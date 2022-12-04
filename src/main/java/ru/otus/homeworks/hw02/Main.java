@@ -5,22 +5,22 @@ import java.util.List;
 
 public class Main {
 
-    static ArrayList<Questions> questionsList;
+    static List<Question> questionList;
     public static void main(String[] args) {
 
-        questionsList = new ArrayList<>();
+        questionList = new ArrayList<>();
 
-        questionsList.add(new Questions(
+        questionList.add(new Question(
                 "Как меня зовут?",
                 2,
-                new ArrayList<>(List.of("Никак", "Сергей", "Николай"))
-        ));
-        questionsList.add(new Questions(
+                List.of("Никак", "Сергей", "Николай"))
+        );
+        questionList.add(new Question(
                 "Название планеты?",
                 4,
                 new ArrayList<>(List.of("Плутон", "Нептун", "Юпитер", "Венера (правильный ответ)"))
         ));
-        questionsList.add(new Questions(
+        questionList.add(new Question(
                 "Ваш любимый цвет (Белый)?",
                 1,
                 new ArrayList<>(List.of("Белый", "Красный"))
@@ -30,6 +30,4 @@ public class Main {
 
         PrintOutQuestions.answerQuestions();
     }
-
-
 }
