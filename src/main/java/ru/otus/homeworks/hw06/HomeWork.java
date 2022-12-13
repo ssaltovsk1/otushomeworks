@@ -24,11 +24,13 @@ public class HomeWork {
 
         System.out.println("Начали тест 1. Фиксированное значение Dice");
         new GameTest01().gameTest01();
-        System.out.println("Закончили тест 1");
+        System.out.println("Закончили тест 1 \n");
 
         System.out.println("Начали тест 2. Значение Dice должно быть в пределах от 0 до 6");
         new GameTest02().gameTest02();
-        System.out.println("Закончили тест 2");
+        System.out.flush();
+        System.err.flush();
+        System.out.println("Закончили тест 2 \n");
 
         System.out.println("Начали тест 3. Соответствие заданного имени Player");
         new GameTest03().gameTest03();

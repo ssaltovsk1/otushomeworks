@@ -1,17 +1,11 @@
 package ru.otus.homeworks.hw06.test.test01;
 
 import ru.otus.homeworks.hw06.assertions.Assertions;
-import ru.otus.homeworks.hw06.test.test01.*;
-import ru.otus.homeworks.hw06.test.test01.Dice;
-import ru.otus.homeworks.hw06.test.test01.DiceImpl;
+import ru.otus.homeworks.hw06.test.Dice;
 
 public class GameTest01 {
 
-    private final Dice dice = new DiceImpl();
-    private final GameWinnerPrinter winnerPrinter = new GameWinnerConsolePrinter();
-    private final Game game = new Game(dice, winnerPrinter);
-    private final Player vasya = new Player("Вася");
-    private final Player igor = new Player("Игорь");
+    private final Dice dice = new DiceTestImplTest01();
 
     public void gameTest01() {
         String scenario = "Фиксированное значение метода Dice";

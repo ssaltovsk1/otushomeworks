@@ -4,8 +4,7 @@ import ru.otus.homeworks.hw06.assertions.Assertions;
 
 public class GameTest02 {
 
-    private final Dice dice = new DiceImpl();
-    private final GameWinnerPrinter winnerPrinter = new GameWinnerConsolePrinter();
+    private final DiceTest02 dice = new DiceImplTest02();
 
     public void gameTest02() {
         String scenario = "Значение Dice должно быть в пределах от 0 до 6";
@@ -17,9 +16,13 @@ public class GameTest02 {
                     Assertions.assertEquals(j, actual);
                 }
             }
+
             System.out.printf("\"%s\" passed %n", scenario);
+            System.out.flush();
+
         } catch (Throwable e) {
             System.err.printf("\"%s\" fails with message \"%s\" %n", scenario, e.getMessage());
+            System.err.flush();
         }
     }
 }
