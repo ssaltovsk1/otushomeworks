@@ -4,6 +4,7 @@ package ru.otus.homeworks.hw06;
 import ru.otus.homeworks.hw06.test.test01.GameTest01;
 import ru.otus.homeworks.hw06.test.test02.GameTest02;
 import ru.otus.homeworks.hw06.test.test03.GameTest03;
+import ru.otus.homeworks.hw06.test.test04.GameTest04;
 
 
 public class HomeWork {
@@ -35,6 +36,10 @@ public class HomeWork {
         System.out.println("Начали тест 3. Соответствие заданного имени Player");
         new GameTest03().gameTest03();
         System.out.println("Закончили тест 3");
+
+        System.out.println("Начали тест 4. Соответствие заданного имени Player");
+        new GameTest04().gameTest04();
+        System.out.println("Закончили тест 4");
 
     }
     

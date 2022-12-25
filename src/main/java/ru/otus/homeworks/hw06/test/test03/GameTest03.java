@@ -1,9 +1,7 @@
 package ru.otus.homeworks.hw06.test.test03;
 
 import ru.otus.homeworks.hw06.assertions.Assertions;
-import ru.otus.homeworks.hw06.test.Dice;
-import ru.otus.homeworks.hw06.test.DiceImpl;
-import ru.otus.homeworks.hw06.test.Player;
+import ru.otus.homeworks.hw06.test.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -12,9 +10,10 @@ import java.io.PrintStream;
 public class GameTest03 {
 
 private final Dice dice = new DiceImpl();
-private final GameWinnerPrinterTest03 winnerPrinter = new GameWinnerConsolePrinterTest03();
+private final GameWinnerPrinter winnerPrinter = new GameWinnerConsolePrinterTest03();
 private final Game game = new Game(dice, winnerPrinter);
 private final Player igor = new Player ("Игорь");
+private final Player vasya = new Player ("Василий");
 
 
 
@@ -28,7 +27,7 @@ private final Player igor = new Player ("Игорь");
             PrintStream capture = new PrintStream(outputStream);
             System.setOut(capture);
 
-            game.playGame(igor, igor);
+            game.playGame(vasya, igor);
 
             capture.flush();
             consoleOutPut = outputStream.toString();

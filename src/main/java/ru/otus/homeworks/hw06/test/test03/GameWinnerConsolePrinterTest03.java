@@ -2,8 +2,9 @@ package ru.otus.homeworks.hw06.test.test03;
 
 
 import ru.otus.homeworks.hw06.test.Player;
+import ru.otus.homeworks.hw06.test.GameWinnerPrinter;
 
-public class GameWinnerConsolePrinterTest03 implements GameWinnerPrinterTest03 {
+public class GameWinnerConsolePrinterTest03 implements GameWinnerPrinter {
 
 
     @Override

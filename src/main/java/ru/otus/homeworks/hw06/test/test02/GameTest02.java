@@ -1,10 +1,12 @@
 package ru.otus.homeworks.hw06.test.test02;
 
 import ru.otus.homeworks.hw06.assertions.Assertions;
+import ru.otus.homeworks.hw06.test.Dice;
+import ru.otus.homeworks.hw06.test.DiceImpl;
 
 public class GameTest02 {
 
-    private final DiceTest02 dice = new DiceImplTest02();
+    private final Dice dice = new DiceImpl();
 
     public void gameTest02() {
         String scenario = "Значение Dice должно быть в пределах от 0 до 6";
