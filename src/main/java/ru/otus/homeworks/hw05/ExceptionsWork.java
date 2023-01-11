@@ -1,32 +1,36 @@
 package ru.otus.homeworks.hw05;
 
 import java.io.*;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class ExceptionsWork {
 
-    static ArrayList<Goods> goodsList;
-    public static void main(String[] args) throws IOException, PersonalException{
+    public static ArrayList<Good> goodList;
+    public static void main(String[] args) throws PersonalException, IOException {
+
+        goodList.add(new Good(12,211));
 
         try {
-            goodsList = new ArrayList<>(-1);
+            goodList = new ArrayList<>(-1);
         } catch (IllegalArgumentException e) {
             System.out.println("Ошибка при создании ArrayList с initialCapacity (-1). с Finally");
         } finally {
-            goodsList = new ArrayList<>();
+            goodList = new ArrayList<>();
         }
 
-        String testFile = "demotxt";
-
+        String testFile = "demo";
         ImportFromFile.writeGoodsFromFile(testFile);
 
         try {
-                goodsList.add(3,new Goods(1, 233));
+                goodList.add(3,new Good(1, 233));
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Ошибка добавлнения по неправильному индексу. Печатаем StackTrace");
             e.printStackTrace();
         }
         AddGoodsToList.addGoodToList(120, 233);
+
+        WriteToFile.writeToFile(Paths.get("C:\\testFile.txt"), goodList.get(0));
     }
 
 }

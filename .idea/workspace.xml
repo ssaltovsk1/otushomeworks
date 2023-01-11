@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8442448c-7d59-4c0d-bf24-179bb52c2747" name="Changes" comment="Second HomeWork&#10;- change Arrays to ArrayList to storage the questions&#10;- add classes&#10;&#10;possible feature to development&#10;- add possibility to write questions and answers from file&#10;- add questions and answers manually from Terminal&#10;- add UnitTests&#10;- ...">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw01/FirstHomeWorkTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw01/FirstHomeWorkTwoArrays.java" afterDir="false" />
+    <list default="true" id="8442448c-7d59-4c0d-bf24-179bb52c2747" name="Changes" comment="HomeWork 01 - Система тестирования&#10;                    &#10;- Change Array type to Object&#10;- cast answers to (int)">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/v2/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/v2/AccountsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/v2/MainHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/v2/Rubles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/DiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/GameWinnerConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/GameWinnerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/DiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/GameTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/GameWinnerConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/GameWinnerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test01/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/DiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/GameTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/GameWinnerConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/GameWinnerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test02/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/DiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/GameTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/GameWinnerConsolePrinterDump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/GameWinnerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw06/test/test03/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/AccountsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/AccountsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/MainHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/MainHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Rubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Rubles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Tenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/homeworks/hw04/Tenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +62,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentSearchFilters">
+      <list>
+        <option value="state:" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,14 +90,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/_prog/Java/OTUS/OtusHomeWorks/src/main/java/ru/otus/homeworks/hw06/test/test02",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="FirstHomeWorkTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw01.FirstHomeWorkTwoArrays" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\_prog\Java\OTUS\OtusHomeWorks\src\main\java\ru\otus\homeworks\hw06\test\test02" />
+      <recent name="C:\_prog\Java\OTUS\OtusHomeWorks\src\main\java\ru\otus\homeworks\hw06\test\test03" />
+      <recent name="C:\_prog\Java\OTUS\OtusHomeWorks\src\main\java\ru\otus\homeworks\hw06\test\test01" />
+      <recent name="C:\_prog\Java\OTUS\OtusHomeWorks\src\main\java\ru\otus\homeworks\hw06" />
+      <recent name="C:\_prog\Java\OTUS\OtusHomeWorks\src\main\java\ru\otus\homeworks\hw06\" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.otus.homeworks.hw06.test.test01" />
+      <recent name="ru.otus.homeworks.hw01" />
+      <recent name="ru.otus.homeworks.hw03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HomeWork">
+    <configuration name="FirstHomeWorkTwoArraysV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw01.FirstHomeWorkTwoArraysV3" />
       <module name="OtusHomeWorks.main" />
       <extension name="coverage">
         <pattern>
@@ -60,9 +130,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstHomeWorkWithOneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw01.FirstHomeWorkWithOneArray" />
+      <module name="OtusHomeWorks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.homeworks.hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw06.HomeWork" />
+      <module name="OtusHomeWorks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.homeworks.hw06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw04.MainHash" />
+      <module name="OtusHomeWorks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.homeworks.hw04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.otus.homeworks.hw04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw04.Main" />
+      <module name="OtusHomeWorks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.homeworks.hw04.Main" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.otus.homeworks.hw04.v2.MainHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.homeworks.hw04.v2.MainHash" />
+      <module name="OtusHomeWorks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.homeworks.hw04.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstHomeWorkTwoArrays" />
+        <item itemvalue="Application.HomeWork" />
+        <item itemvalue="Application.ru.otus.homeworks.hw04.v2.MainHash" />
+        <item itemvalue="Application.MainHash" />
+        <item itemvalue="Application.FirstHomeWorkWithOneArray" />
+        <item itemvalue="Application.FirstHomeWorkTwoArraysV3" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +214,24 @@
       <option name="presentableId" value="Default" />
       <updated>1667285319663</updated>
       <workItem from="1667285322509" duration="1156000" />
-      <workItem from="1667329260436" duration="663000" />
+      <workItem from="1667329260436" duration="1112000" />
+      <workItem from="1667369517800" duration="1432000" />
+      <workItem from="1667387398457" duration="281000" />
+      <workItem from="1667471281247" duration="1650000" />
+      <workItem from="1667736278756" duration="618000" />
+      <workItem from="1667822928161" duration="421000" />
+      <workItem from="1667850566237" duration="17759000" />
+      <workItem from="1668021723381" duration="1964000" />
+      <workItem from="1668162826434" duration="2173000" />
+      <workItem from="1668509235264" duration="3669000" />
+      <workItem from="1668532106175" duration="59458000" />
+      <workItem from="1669209220294" duration="1231000" />
+      <workItem from="1669447530429" duration="887000" />
+      <workItem from="1669448484168" duration="547000" />
+      <workItem from="1669449039500" duration="3246000" />
+      <workItem from="1669556460139" duration="1110000" />
+      <workItem from="1669630594245" duration="27700000" />
+      <workItem from="1669970656691" duration="72289000" />
     </task>
     <task id="LOCAL-00001" summary="First HomeWork&#10;- Add class &quot;How to expand an array&quot; my version&#10;- Add class &quot;How to expand an array&quot; cool version from the Web&#10;- Add class with two arrays and possibility to answer with numbers">
       <created>1667285554513</created>
@@ -105,7 +261,119 @@
       <option name="project" value="LOCAL" />
       <updated>1667285845720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First HomeWork &#10;- add counter of the correct / incorrect answers">
+      <created>1667330007597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667330007597</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First HomeWork">
+      <created>1667471580801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667471580801</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Second HomeWork">
+      <created>1667471607697</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667471607697</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Second HomeWork&#10;- change Answers variables to ArrayList">
+      <created>1667918171818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667918171818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Second HomeWork&#10;- change correct answer to &quot;4&quot;">
+      <created>1667920855631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667920855631</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FirstHomeWorkWithOneArray.java&#10;- не получилось сделать один массив с вопросом, ответами, вариантами ответов.&#10;Рассматривал вариант - ввести ключ для ответов. И выводить по нему варианты ответа">
+      <created>1669468177479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468177479</updated>
+    </task>
+    <task id="LOCAL-00011" summary="QuestionsList.java&#10;- пытался менять параметры доступа. Чтобы максимально закрыть классы, методы, переменные">
+      <created>1669468393050</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468393050</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HomeWork 03 - Сортировка чисел&#10;- простейшая сортировка Bubble Sort">
+      <created>1669468646373</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468646373</updated>
+    </task>
+    <task id="LOCAL-00013" summary="HomeWork 04 - Работа со счетами клиента банка">
+      <created>1669468763803</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669468763803</updated>
+    </task>
+    <task id="LOCAL-00014" summary="HomeWork 04 - Работа со счетами клиента банка&#10;- split Classes to files&#10;- set Clients list and Rubles list as variables&#10;- change to HashMap Rubles list&#10;? Question - how to set correct Clients and Rubles list. In the psvm only?">
+      <created>1669736430024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669736430024</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HomeWork 05 - Ошибки в java-приложении">
+      <created>1669976766096</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669976766096</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HomeWork 05 - Ошибки в java-приложении&#10;- добавил ошибку с finally">
+      <created>1670006068481</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670006068481</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HomeWork 03&#10;- move questionsList to the variable">
+      <created>1670047934334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670047934334</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HomeWork 02 - Система тестирования&#10;&#10;FirstHomeWorkTwoArraysV3&#10;- отдельно вопросы&#10;- варианты ответов в двумерном массиве&#10;- ответы в одномерном массиве (столько же эллементов, сколько вопросов)&#10;&#10;FirstHomeWorkWithOneArray&#10;- трехмерный массив">
+      <created>1670096089207</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670096089207</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HomeWork 03 - Проектирование ООП-модели&#10;              &#10;- move printOutQuestions method to PrintOutQuestions class&#10;- change printOutQuestion method parameter to &quot;Question question&quot;">
+      <created>1670152433866</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670152433866</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HomeWork 01 - Система тестирования&#10;                    &#10;- Change Array type to Object&#10;- cast answers to (int)">
+      <created>1670153102600</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670153102600</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +394,32 @@
     <MESSAGE value="First HomeWork&#10;- Add class &quot;How to expand an array&quot; my version&#10;- Add class &quot;How to expand an array&quot; cool version from the Web&#10;- Add class with two arrays and possibility to answer with numbers" />
     <MESSAGE value="First HomeWork&#10;- move files to the correct package hw01" />
     <MESSAGE value="Second HomeWork&#10;- change Arrays to ArrayList to storage the questions&#10;- add classes&#10;&#10;possible feature to development&#10;- add possibility to write questions and answers from file&#10;- add questions and answers manually from Terminal&#10;- add UnitTests&#10;- ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second HomeWork&#10;- change Arrays to ArrayList to storage the questions&#10;- add classes&#10;&#10;possible feature to development&#10;- add possibility to write questions and answers from file&#10;- add questions and answers manually from Terminal&#10;- add UnitTests&#10;- ..." />
+    <MESSAGE value="First HomeWork &#10;- add counter of the correct / incorrect answers" />
+    <MESSAGE value="First HomeWork" />
+    <MESSAGE value="Second HomeWork" />
+    <MESSAGE value="Second HomeWork&#10;- change Answers variables to ArrayList" />
+    <MESSAGE value="Second HomeWork&#10;- change correct answer to &quot;4&quot;" />
+    <MESSAGE value="FirstHomeWorkWithOneArray.java&#10;- не получилось сделать один массив с вопросом, ответами, вариантами ответов.&#10;Рассматривал вариант - ввести ключ для ответов. И выводить по нему варианты ответа" />
+    <MESSAGE value="QuestionsList.java&#10;- пытался менять параметры доступа. Чтобы максимально закрыть классы, методы, переменные" />
+    <MESSAGE value="HomeWork 03 - Сортировка чисел&#10;- простейшая сортировка Bubble Sort" />
+    <MESSAGE value="HomeWork 04 - Работа со счетами клиента банка" />
+    <MESSAGE value="HomeWork 04 - Работа со счетами клиента банка&#10;- split Classes to files&#10;- set Clients list and Rubles list as variables&#10;- change to HashMap Rubles list&#10;? Question - how to set correct Clients and Rubles list. In the psvm only?" />
+    <MESSAGE value="HomeWork 05 - Ошибки в java-приложении" />
+    <MESSAGE value="HomeWork 05 - Ошибки в java-приложении&#10;- добавил ошибку с finally" />
+    <MESSAGE value="HomeWork 03&#10;- move questionsList to the variable" />
+    <MESSAGE value="HomeWork 02 - Система тестирования&#10;&#10;FirstHomeWorkTwoArraysV3&#10;- отдельно вопросы&#10;- варианты ответов в двумерном массиве&#10;- ответы в одномерном массиве (столько же эллементов, сколько вопросов)&#10;&#10;FirstHomeWorkWithOneArray&#10;- трехмерный массив" />
+    <MESSAGE value="HomeWork 03 - Проектирование ООП-модели&#10;              &#10;- move printOutQuestions method to PrintOutQuestions class&#10;- change printOutQuestion method parameter to &quot;Question question&quot;" />
+    <MESSAGE value="HomeWork 01 - Система тестирования&#10;                    &#10;- Change Array type to Object&#10;- cast answers to (int)" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork 01 - Система тестирования&#10;                    &#10;- Change Array type to Object&#10;- cast answers to (int)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
