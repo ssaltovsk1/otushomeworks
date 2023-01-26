@@ -1,12 +1,12 @@
 package ru.otus.homeworks.hw05;
 
-public class Goods {
+public class Good {
 
     private int goodsPrice;
-    private static int goodsAmount;
+    public static int goodsAmount;
     private static int goodsTotalPrice;
 
-    Goods(int goodsAmount, int goodsTotalPrice) {
+    Good(int goodsAmount, int goodsTotalPrice) {
         this.goodsAmount = goodsAmount;
         this.goodsTotalPrice = goodsTotalPrice;
         try {
@@ -21,7 +21,8 @@ public class Goods {
             System.out.println("Непонятная ошибка Exception. Как отловить конкретный тип?");
         }
     }
-    private Goods(int goodsPrice, int goodsAmount, int goodsTotalPrice) {
+
+    private Good(int goodsPrice, int goodsAmount, int goodsTotalPrice) {
         this.goodsAmount = goodsAmount;
         this.goodsPrice = goodsPrice;
         this.goodsTotalPrice = goodsTotalPrice;
